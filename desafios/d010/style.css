@@ -1,0 +1,80 @@
+body {
+    background-color: lightgreen;
+    margin: auto;
+}
+header {
+    color: white;
+    background-image: linear-gradient(rgb(61, 181, 61),rgba(0, 0, 0, 0.72));
+    padding: 20px;
+    margin: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+nav{
+    color: white;
+    background-image: linear-gradient(rgb(61, 181, 61),rgba(0, 0, 0, 0.72));
+}
+
+nav > a {
+    color: white;
+}
+
+main {
+    background-color: lightgreen;
+    padding: 50px;
+    margin:  50px;
+}
+
+main > h2 {
+    background-color: rgb(128, 175, 128);
+    color: green;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+picture {
+    text-align: center;
+}
+
+main > iframe {
+    text-align: center;
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    padding: 70px;
+    margin: 20px;
+    border-radius: 20px 20px;
+    
+}
+
+article > h3 {
+    background-color: green;
+    padding: 0px;
+    margin: 0px;
+}
+
+aside {
+    background-color: rgb(63, 223, 63);
+    padding: 2px;
+    margin: 1px;
+    border-radius: 10px 10px;
+}
+
+aside > h3 {
+    background-color: green;
+    padding: 4px;
+}
+
+
+footer {
+    background-color: rgb(3, 52, 3);
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+footer > p {
+    padding: 0;
+    margin: 0;
+}
